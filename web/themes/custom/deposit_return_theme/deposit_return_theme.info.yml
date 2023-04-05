@@ -18,6 +18,7 @@ regions:
   content: 'Main content'
   sidebar_first: 'Sidebar first'
   sidebar_second: 'Sidebar second'
+  first_footer: First Footer
   footer: Footer
 libraries-override:
   bootstrap5/global-styling: false

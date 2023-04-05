@@ -23,6 +23,7 @@
         "drupal/gin": "^3.0@rc",
         "drupal/gin_toolbar": "^1.0@rc",
         "drupal/paragraphs": "^1.15",
+        "drupal/svg_image_field": "^2.2",
         "drush/drush": "^11.5"
     },
     "conflict": {

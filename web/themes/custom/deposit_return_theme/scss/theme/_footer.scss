@@ -1,0 +1,34 @@
+footer {
+  background: purple;
+  color: white;
+  .region-first-footer {
+    display: flex;
+  }
+  .region-footer {
+    display: flex;
+    flex-direction: row;
+  }
+  a {
+    color: yellow;
+  }
+  svg {
+    path {
+      fill: white;
+    }
+  }
+  #block-socialicons {
+    margin-left: auto;
+  }
+  .region-footer {
+    padding: 0;
+  }
+  .block-menu {
+    margin-left: auto;
+
+    .nav {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+    }
+  }
+}

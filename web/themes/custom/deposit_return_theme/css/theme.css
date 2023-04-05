@@ -11729,3 +11729,35 @@ em.placeholder {
 code {
   overflow-y: auto;
 }
+
+footer {
+  background: purple;
+  color: white;
+}
+footer .region-first-footer {
+  display: flex;
+}
+footer .region-footer {
+  display: flex;
+  flex-direction: row;
+}
+footer a {
+  color: yellow;
+}
+footer svg path {
+  fill: white;
+}
+footer #block-socialicons {
+  margin-left: auto;
+}
+footer .region-footer {
+  padding: 0;
+}
+footer .block-menu {
+  margin-left: auto;
+}
+footer .block-menu .nav, footer .block-menu .media-library-view--widget .view-header, .media-library-view--widget footer .block-menu .view-header {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
