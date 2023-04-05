@@ -141,6 +141,18 @@
       "oAP" : "\/css\/ck5style.css.map",
       "oF" : 0
     },
+    "\/css\/theme.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/theme-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/deposit_return_theme.breakpoints.yml" : {
       "cB" : 0,
       "ft" : 8192,
@@ -190,6 +202,14 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/README.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/README.html",
+      "oF" : 0
     },
     "\/README.md" : {
       "cB" : 0,
@@ -253,6 +273,18 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/scss\/ck5style.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/scss\/ck5style-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/scss\/ck5style.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -276,9 +308,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/css\/theme.css",
-      "oF" : 2,
+      "oF" : 3,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
