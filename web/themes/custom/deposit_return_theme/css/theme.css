@@ -11792,14 +11792,18 @@ p {
   align-content: end;
   gap: 60px;
 }
-.navbar .navbar-collapse nav .navbar-nav a {
+.navbar .navbar-collapse nav .navbar-nav li {
+  display: flex;
+  align-items: end;
+}
+.navbar .navbar-collapse nav .navbar-nav li a {
   color: #C6E236;
   font-weight: 900;
   font-size: 20px;
   margin-bottom: 6px;
   padding: 20px 0;
 }
-.navbar .navbar-collapse nav .navbar-nav a:hover {
+.navbar .navbar-collapse nav .navbar-nav li a:hover {
   color: #C6E236;
   border-bottom: solid 6px #C6E236;
   margin-bottom: 0;
@@ -11812,6 +11816,7 @@ p {
   .navbar .navbar-collapse nav .navbar-nav li {
     border-bottom: solid 1px #660269;
     width: 100%;
+    display: block;
   }
   .navbar .navbar-collapse nav .navbar-nav li a {
     padding: 20px;
@@ -11864,6 +11869,7 @@ p {
 @media (max-width: 991.98px) {
   .navbar {
     height: auto;
+    padding: 20px;
   }
 }
 
