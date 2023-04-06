@@ -1,0 +1,27 @@
+
+{% set classes = [
+  'paragraph',
+  'paragraph--type--' ~ paragraph.bundle|clean_class,
+  view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+  not paragraph.isPublished() ? 'paragraph--unpublished',
+] %}
+{% block paragraph %}
+  <div{{ attributes.addClass(classes) }}>
+    {% block content %}
+      <div class="text-image">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <h2>{{ content.field_title }}</h2>
+              <p>{{ content.field_text }}</p>
+            </div>
+            <div class="col-lg-6">
+              {{ content.field_image_upload }}
+              {{ content.field_image_location }}
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endblock %}
+  </div>
+{% endblock paragraph %}

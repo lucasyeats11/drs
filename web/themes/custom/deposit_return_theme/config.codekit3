@@ -7,7 +7,7 @@
       "uuidString" : "4E71BA75-B22C-43B0-8C86-C18241548394"
     }
   ],
-  "creatorBuild" : "34448",
+  "creatorBuild" : "34472",
   "files" : {
     "\/config\/install\/deposit_return_theme.settings.yml" : {
       "cB" : 0,
@@ -243,7 +243,7 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/scss\/_variables_bootstrap.scss" : {
+    "\/scss\/theme\/_background-colours.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -252,13 +252,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/scss\/_variables_bootstrap.css",
+      "oAP" : "\/scss\/theme\/_background-colours.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/scss\/_variables_drupal.scss" : {
+    "\/scss\/theme\/_global.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -267,13 +267,73 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/scss\/_variables_drupal.css",
+      "oAP" : "\/scss\/theme\/_global.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/scss\/ck5style.css" : {
+    "\/scss\/theme\/layout\/_footer.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/theme\/layout\/_footer.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/scss\/theme\/layout\/_header.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/theme\/layout\/_header.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/scss\/theme\/paragraphs\/_main-banner.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/theme\/paragraphs\/_main-banner.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/scss\/theme\/paragraphs\/_text-image.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/theme\/paragraphs\/_text-image.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/scss\/theme\/theme.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -281,26 +341,11 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/scss\/ck5style-min.css",
+      "oAP" : "\/scss\/theme\/theme-min.css",
       "oF" : 0,
       "pg" : 0
     },
-    "\/scss\/ck5style.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/scss\/ck5style.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/scss\/theme.scss" : {
+    "\/scss\/theme\/theme.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -310,12 +355,12 @@
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/css\/theme.css",
-      "oF" : 3,
+      "oF" : 2,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/scss\/theme\/_footer.scss" : {
+    "\/scss\/theme\/variables\/_bootstrap-overrides.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -324,13 +369,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/scss\/theme\/_footer.css",
+      "oAP" : "\/scss\/theme\/variables\/_bootstrap-overrides.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/scss\/theme\/_test.scss" : {
+    "\/scss\/theme\/variables\/_fonts.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -339,7 +384,22 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/scss\/theme\/_test.css",
+      "oAP" : "\/scss\/theme\/variables\/_fonts.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/scss\/theme\/variables\/_variables.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/theme\/variables\/_variables.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -913,14 +973,6 @@
       "oAP" : "\/templates\/layout\/maintenance-page.html.twig",
       "oF" : 0
     },
-    "\/templates\/layout\/page.html.twig" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/templates\/layout\/page.html.twig",
-      "oF" : 0
-    },
     "\/templates\/layout\/region.html.twig" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1015,6 +1067,30 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/templates\/navigation\/vertical-tabs.html.twig",
+      "oF" : 0
+    },
+    "\/templates\/pages\/page.html.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/templates\/pages\/page.html.twig",
+      "oF" : 0
+    },
+    "\/templates\/paragraphs\/paragraph--banner.html.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/templates\/paragraphs\/paragraph--banner.html.twig",
+      "oF" : 0
+    },
+    "\/templates\/paragraphs\/paragraph--text-image.html.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/templates\/paragraphs\/paragraph--text-image.html.twig",
       "oF" : 0
     },
     "\/templates\/user\/user.html.twig" : {
@@ -2691,6 +2767,7 @@
       "ENVIRONMENT:::$NODE_ENV"
     ],
     "rollupTreeshakingEnabled" : 1,
+    "rollupTreeshakingModuleSideEffects" : 1,
     "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
     "sourceFolderName" : "source",
     "susyVersion" : 3,

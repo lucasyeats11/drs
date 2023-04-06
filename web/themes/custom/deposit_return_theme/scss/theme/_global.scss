@@ -1,0 +1,30 @@
+body {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 81px;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 60px;
+}
+
+p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+//Resetting bootstrap defaults
+.region-footer,
+.region-content {
+  padding: 0;
+}

@@ -1,0 +1,18 @@
+// Sub theme styling.
+@import 'variables/bootstrap-overrides';
+
+// Include bootstrap.
+@import '../../../../../themes/contrib/bootstrap5/scss/style';
+
+//Custom theme
+@import 'variables/variables';
+@import 'variables/fonts';
+@import 'global';
+@import 'background-colours';
+@import 'layout/header';
+@import 'layout/footer';
+
+//Paragraphs
+
+@import 'paragraphs/main-banner';
+@import 'paragraphs/text-image';
