@@ -11790,17 +11790,19 @@ p {
 }
 .navbar .navbar-collapse nav .navbar-nav {
   align-content: end;
-  padding-bottom: 20px;
   gap: 60px;
 }
 .navbar .navbar-collapse nav .navbar-nav a {
   color: #C6E236;
   font-weight: 900;
   font-size: 20px;
+  margin-bottom: 6px;
+  padding: 20px 0;
 }
 .navbar .navbar-collapse nav .navbar-nav a:hover {
   color: #C6E236;
-  background: #660269;
+  border-bottom: solid 6px #C6E236;
+  margin-bottom: 0;
 }
 @media (max-width: 991.98px) {
   .navbar .navbar-collapse nav .navbar-nav {
@@ -11821,6 +11823,20 @@ p {
   .navbar .navbar-collapse nav .navbar-nav li:last-child {
     border: none;
   }
+}
+.navbar .navbar-collapse nav .dropdown-menu {
+  background: #4C024F;
+  box-shadow: none;
+  border-radius: 0;
+  margin-top: 0;
+  border: 0;
+  padding: 0;
+}
+.navbar .navbar-collapse nav .dropdown-menu a {
+  padding: 20px;
+}
+.navbar .navbar-collapse nav .dropdown-menu a:hover {
+  background: #4C024F;
 }
 @media (max-width: 991.98px) {
   .navbar .navbar-collapse nav .dropdown-menu {

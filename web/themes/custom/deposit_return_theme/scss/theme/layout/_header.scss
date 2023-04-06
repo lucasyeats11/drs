@@ -23,17 +23,19 @@
 
       .navbar-nav {
         align-content: end;
-        padding-bottom: 20px;
         gap: 60px;
 
         a {
           color: $lime;
           font-weight: 900;
           font-size: 20px;
+          margin-bottom: 6px;
+          padding: 20px 0 ;
 
           &:hover {
             color: $lime;
-            background: $purple;
+            border-bottom: solid 6px $lime;
+            margin-bottom: 0;
           }
         }
 
@@ -59,6 +61,18 @@
       }
 
       .dropdown-menu {
+        background: $dark-purple;
+        box-shadow: none;
+        border-radius: 0;
+        margin-top: 0;
+        border: 0;
+        padding: 0;
+        a {
+          padding: 20px;
+          &:hover {
+            background: $dark-purple;
+          }
+        }
         @include media-breakpoint-down(lg) {
           display: block;
           background: none;
