@@ -5,10 +5,15 @@ footer {
   .region-first-footer {
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 
     a {
       color: $lime;
       text-decoration: none;
+    }
+
+    p {
+      margin: 0;
     }
 
     #block-socialicons {
