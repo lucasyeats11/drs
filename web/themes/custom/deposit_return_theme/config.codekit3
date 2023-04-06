@@ -193,6 +193,26 @@
       "oAP" : "\/favicon.ico",
       "oF" : 0
     },
+    "\/icons\/close.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/icons\/close.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/icons\/mobile-nav.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/icons\/mobile-nav.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/logo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -332,18 +352,6 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
-    },
-    "\/scss\/theme\/theme.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/scss\/theme\/theme-min.css",
-      "oF" : 0,
-      "pg" : 0
     },
     "\/scss\/theme\/theme.scss" : {
       "aP" : 0,

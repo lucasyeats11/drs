@@ -5,24 +5,93 @@ header {
   .navbar-brand {
     img {
       height: 95px;
+      @include media-breakpoint-down(lg) {
+        height: 85px;
+      }
     }
   }
 
-  nav {
-    height: 140px;
-    display: flex;
+  .navbar-collapse {
+    padding-top: 30px;
+
+    nav {
+      height: 140px;
+      display: flex;
+
       .navbar-nav {
         align-content: end;
         padding-bottom: 20px;
         gap: 60px;
+
         a {
           color: $lime;
           font-weight: 900;
           font-size: 20px;
+
           &:hover {
             color: $lime;
+            background: $purple;
+          }
+        }
+
+        @include media-breakpoint-down(lg) {
+          gap: 0;
+          width: 100%;
+          li {
+            border-bottom: solid 1px $purple;
+            width: 100%;
+
+            a {
+              padding: 20px;
+              width: 100%;
+            }
           }
         }
       }
+
+      .dropdown-menu {
+        @include media-breakpoint-down(lg) {
+          display: block;
+          background: none;
+          border: none;
+          padding: 20px;
+          li {
+            border: none;
+
+            a {
+              &:hover {
+                background: $purple;
+              }
+            }
+          }
+        }
+      }
+
+      @include media-breakpoint-down(lg) {
+        height: auto;
+      }
     }
   }
+
+  @include media-breakpoint-down(lg) {
+    height: auto;
+  }
+}
+
+.navbar-toggler {
+  border: none;
+
+  &:focus {
+    box-shadow: none;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("../icons/close.svg");
+  }
+
+  &.collapsed {
+    .navbar-toggler-icon {
+      background-image: url("../icons/mobile-nav.svg");
+    }
+  }
+}
