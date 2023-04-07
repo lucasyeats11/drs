@@ -323,6 +323,36 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/scss\/theme\/paragraphs\/_card.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/theme\/paragraphs\/_card.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/scss\/theme\/paragraphs\/_cards.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/theme\/paragraphs\/_cards.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/scss\/theme\/paragraphs\/_cta.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -778,6 +808,14 @@
       "oAP" : "\/templates\/field\/field--node--uid.html.twig",
       "oF" : 0
     },
+    "\/templates\/field\/field--paragraph--field-add-card.html.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/templates\/field\/field--paragraph--field-add-card.html.twig",
+      "oF" : 0
+    },
     "\/templates\/field\/field--paragraph--field-add-stat.html.twig" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1144,6 +1182,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/templates\/paragraphs\/paragraph--banner.html.twig",
+      "oF" : 0
+    },
+    "\/templates\/paragraphs\/paragraph--card.html.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/templates\/paragraphs\/paragraph--card.html.twig",
+      "oF" : 0
+    },
+    "\/templates\/paragraphs\/paragraph--cards.html.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/templates\/paragraphs\/paragraph--cards.html.twig",
       "oF" : 0
     },
     "\/templates\/paragraphs\/paragraph--cta.html.twig" : {
