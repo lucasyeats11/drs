@@ -1,0 +1,25 @@
+.stat {
+  background-color: $purple;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px #C6C6C6;
+  padding: 50px;
+  width: 100%;
+
+  h2 {
+    text-align: center;
+    color: $lime;
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+  }
+
+  p {
+    color: $white;
+  }
+
+  @include media-breakpoint-down(lg) {
+    margin-bottom: 30px;
+  }
+}

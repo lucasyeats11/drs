@@ -8,11 +8,14 @@
 @import 'variables/variables';
 @import 'variables/fonts';
 @import 'global';
-@import 'background-colours';
 @import 'layout/header';
 @import 'layout/footer';
+@import 'background-colours';
 
 //Paragraphs
 
 @import 'paragraphs/main-banner';
 @import 'paragraphs/text-image';
+@import 'paragraphs/cta';
+@import 'paragraphs/stat';
+@import 'paragraphs/stats';

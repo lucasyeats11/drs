@@ -11742,28 +11742,26 @@ h1, .h1 {
   font-weight: 900;
   font-size: 64px;
   line-height: 81px;
+  color: #660269;
 }
 
 h2, .h2 {
   font-weight: 900;
   font-size: 48px;
   line-height: 60px;
+  color: #660269;
 }
 
 p {
   font-weight: 300;
   font-size: 18px;
   line-height: 30px;
+  color: #6C6C6C;
 }
 
 .region-footer,
 .region-content {
   padding: 0;
-}
-
-.purple {
-  background-color: #660269;
-  color: white;
 }
 
 .navbar {
@@ -11906,6 +11904,7 @@ footer .region-first-footer a {
 }
 footer .region-first-footer p {
   margin: 0;
+  color: #fff;
 }
 footer .region-first-footer #block-socialicons {
   margin-left: auto;
@@ -11942,6 +11941,7 @@ footer .region-footer {
 }
 footer .region-footer p {
   margin-bottom: 0;
+  color: #fff;
 }
 @media (max-width: 767.98px) {
   footer .region-footer p {
@@ -11975,6 +11975,40 @@ footer .region-footer .block-menu .nav, footer .region-footer .block-menu .media
   }
 }
 
+.purple {
+  background-color: #660269;
+  color: white;
+}
+.purple h1, .purple .h1,
+.purple h2,
+.purple .h2,
+.purple h3,
+.purple .h3,
+.purple p {
+  color: #fff;
+}
+
+.dark-purple {
+  background-color: #4C024F;
+  color: white;
+}
+.dark-purple h1, .dark-purple .h1,
+.dark-purple h2,
+.dark-purple .h2,
+.dark-purple h3,
+.dark-purple .h3,
+.dark-purple p {
+  color: #fff;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.light-grey {
+  background-color: #EBEBEB;
+}
+
 .main-banner {
   display: flex;
 }
@@ -11991,4 +12025,68 @@ footer .region-footer .block-menu .nav, footer .region-footer .block-menu .media
 .text-image {
   display: block;
   padding: 100px 0;
+}
+
+.cta {
+  display: block;
+  padding: 100px 0;
+  text-align: center;
+}
+.cta a {
+  display: inline-block;
+  border: solid 2px;
+  padding: 7px 12px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.cta.white a {
+  color: #660269;
+  border-color: #660269;
+}
+.cta.white a:hover {
+  color: #fff;
+  background-color: #660269;
+}
+.cta.purple a, .cta.dark-purple a {
+  color: #C6E236;
+  border-color: #C6E236;
+}
+.cta.purple a:hover, .cta.dark-purple a:hover {
+  color: #660269;
+  background-color: #C6E236;
+}
+
+.stat {
+  background-color: #660269;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px #C6C6C6;
+  padding: 50px;
+  width: 100%;
+}
+.stat h2, .stat .h2 {
+  text-align: center;
+  color: #C6E236;
+}
+.stat img {
+  width: 200px;
+  height: 200px;
+}
+.stat p {
+  color: #fff;
+}
+@media (max-width: 991.98px) {
+  .stat {
+    margin-bottom: 30px;
+  }
+}
+
+.stats {
+  text-align: center;
+  padding: 100px 0;
+}
+.stats .stat-container {
+  display: flex;
 }

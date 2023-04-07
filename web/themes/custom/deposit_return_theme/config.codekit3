@@ -323,6 +323,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/scss\/theme\/paragraphs\/_cta.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/theme\/paragraphs\/_cta.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/scss\/theme\/paragraphs\/_main-banner.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -333,6 +348,36 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/theme\/paragraphs\/_main-banner.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/scss\/theme\/paragraphs\/_stat.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/theme\/paragraphs\/_stat.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/scss\/theme\/paragraphs\/_stats.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/theme\/paragraphs\/_stats.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -733,6 +778,14 @@
       "oAP" : "\/templates\/field\/field--node--uid.html.twig",
       "oF" : 0
     },
+    "\/templates\/field\/field--paragraph--field-add-stat.html.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/templates\/field\/field--paragraph--field-add-stat.html.twig",
+      "oF" : 0
+    },
     "\/templates\/field\/field--text-long.html.twig" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1091,6 +1144,30 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/templates\/paragraphs\/paragraph--banner.html.twig",
+      "oF" : 0
+    },
+    "\/templates\/paragraphs\/paragraph--cta.html.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/templates\/paragraphs\/paragraph--cta.html.twig",
+      "oF" : 0
+    },
+    "\/templates\/paragraphs\/paragraph--stat.html.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/templates\/paragraphs\/paragraph--stat.html.twig",
+      "oF" : 0
+    },
+    "\/templates\/paragraphs\/paragraph--stats.html.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/templates\/paragraphs\/paragraph--stats.html.twig",
       "oF" : 0
     },
     "\/templates\/paragraphs\/paragraph--text-image.html.twig" : {

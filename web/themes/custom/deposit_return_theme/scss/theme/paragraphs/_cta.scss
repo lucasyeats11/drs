@@ -1,0 +1,36 @@
+.cta {
+    display: block;
+    padding: 100px 0;
+  text-align: center;
+  a {
+    display: inline-block;
+    border: solid 2px;
+    padding: 7px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  &.white {
+    a {
+      color: $purple;
+      border-color: $purple;
+      &:hover {
+        color: $white;
+        background-color: $purple;
+      }
+    }
+  }
+  &.purple,
+  &.dark-purple {
+    a {
+      color: $lime;
+      border-color: $lime;
+      &:hover {
+        color: $purple;
+        background-color: $lime;
+      }
+    }
+  }
+}

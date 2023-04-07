@@ -1,4 +1,31 @@
 .purple {
   background-color: $purple;
   color: white;
+
+  h1,
+  h2,
+  h3,
+  p {
+    color: $white;
+  }
+}
+
+.dark-purple {
+  background-color: $dark-purple;
+  color: white;
+
+  h1,
+  h2,
+  h3,
+  p {
+    color: $white;
+  }
+}
+
+.white {
+  background-color: $white;
+}
+
+.light-grey {
+  background-color: $light-grey;
 }
