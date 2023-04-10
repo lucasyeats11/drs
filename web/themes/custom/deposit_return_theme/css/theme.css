@@ -12258,6 +12258,14 @@ footer .region-footer .block-menu .nav, footer .region-footer .block-menu .media
   background-size: 100%;
   height: 119px;
   width: 100%;
+  background-position-y: bottom;
+  position: relative;
+  bottom: -1px;
+}
+@media (max-width: 991.98px) {
+  .card .content-wrapper:before, .view-media-library .media-library-views-form .media-library-item--grid .views-field-rendered-entity .content-wrapper:before, .media-library-selection .media-library-item.media-library-item--grid .content-wrapper:before {
+    height: 157px;
+  }
 }
 
 .cards {
