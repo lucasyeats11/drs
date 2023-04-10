@@ -213,6 +213,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/images\/card-divider.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/images\/card-divider.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/logo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -423,6 +433,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/theme\/paragraphs\/_text-image.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/scss\/theme\/paragraphs\/_video.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/theme\/paragraphs\/_video.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -1230,6 +1255,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/templates\/paragraphs\/paragraph--text-image.html.twig",
+      "oF" : 0
+    },
+    "\/templates\/paragraphs\/paragraph--video.html.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/templates\/paragraphs\/paragraph--video.html.twig",
       "oF" : 0
     },
     "\/templates\/user\/user.html.twig" : {

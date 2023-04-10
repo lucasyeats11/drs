@@ -1,0 +1,28 @@
+{% set classes = [
+  'paragraph',
+  'paragraph--type--' ~ paragraph.bundle|clean_class,
+  view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+  not paragraph.isPublished() ? 'paragraph--unpublished',
+] %}
+{% block paragraph %}
+  <div{{ attributes.addClass(classes) }}>
+    {% block content %}
+      <div class="video">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+              <h3>{{ content.field_title }}</h3>
+              {{ content.field_video_shortcode.0 }}
+              <div class="row">
+                <div class="col-lg-6">
+                  {{ content.field_text }}
+                  {{ content.field_link }}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endblock %}
+  </div>
+{% endblock paragraph %}
