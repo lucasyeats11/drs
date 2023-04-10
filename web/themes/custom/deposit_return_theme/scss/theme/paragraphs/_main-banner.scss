@@ -1,13 +1,97 @@
 .main-banner {
   display: flex;
   min-height: 900px;
-  background-size: 50% 900px;
-  background-position: right;
-  background-repeat: no-repeat;
+  position: relative;
   .content {
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
+    z-index: 2;
+    a {
+      display: inline-block;
+      border: $lime solid 2px;
+      padding: 7px 12px;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 20px;
+      font-weight: 600;
+      font-size: 20px;
+      background-color: $lime;
+      color: $purple;
+      &:hover {
+        background-color: $dark-purple;
+        border-color: $dark-purple;
+        color: $lime;
+      }
+    }
+    @include media-breakpoint-down(lg) {
+      display: block;
+      z-index: 1;
+      padding: 30px;
+    }
   }
+  .background-image {
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+   background-position: center;
+    height: 900px;
+    right: 0;
+    z-index: 1;
+    flex: 0 0 auto;
+    width: 58%;
+    &:before {
+      content: "";
+      background-size: 320px;
+      background-repeat: no-repeat;
+      width: 360px;
+      height: 900px;
+      display: inline-block;
+      @include media-breakpoint-down(lg) {
+        width: 100%;
+        height: 25vh;
+        background-size: 100%;
+        position: absolute;
+        bottom: -1px;
+        display: block;
+        background-position-y: bottom;
+      }
+    }
+    @include media-breakpoint-down(lg) {
+      position: relative;
+      display: block;
+      width: 100%;
+      z-index: 1;
+      height: 380px;
+    }
+  }
+  &.purple,
+  &.dark-purple {
+    .background-image {
+      &:before {
+        background-image: url("../images/purple-banner.svg");
+        @include media-breakpoint-down(lg) {
+          background-image: url("../images/purple-banner-mobile.svg");
+        }
+      }
+    }
+  }
+  &.white,
+  &.light-grey {
+    .background-image {
+      &:before {
+        background-image: url("../images/white-banner.svg");
+        @include media-breakpoint-down(lg) {
+          background-image: url("../images/white-banner-mobile.svg");
+        }
+      }
+    }
+  }
+  @include media-breakpoint-down(lg) {
+    flex-direction: column;
+    min-height: auto;
+    position: static;
+  }
+
 }

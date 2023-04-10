@@ -7,12 +7,20 @@
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
-      <div class="main-banner {{ content.field_background_colour.0|render|lower}}" style="background-image: url('{{ file_url(paragraph.field_image_upload.entity.field_media_image.entity.fileuri) }}') ">
-            <div class="content">
-              <h1>{{ content.field_title }}</h1>
-              <p>{{ content.field_text }}</p>
-              {{ content.field_link }}
+      <div class="main-banner {{ content.field_background_colour.0|render|lower }}">
+        <div class="background-image"
+             style="background-image: url('{{ file_url(paragraph.field_image_upload.entity.field_media_image.entity.fileuri) }}') "></div>
+        <div class="container content">
+          <div class="row">
+            <div class="col-lg-5">
+                <h1>{{ content.field_title }}</h1>
+                <p>{{ content.field_text }}</p>
+                {{ content.field_link }}
             </div>
+          </div>
+        </div>
+
+
       </div>
     {% endblock %}
   </div>
