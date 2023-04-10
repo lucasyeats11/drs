@@ -12019,15 +12019,15 @@ footer .region-footer .block-menu .nav, footer .region-footer .block-menu .media
 .main-banner {
   display: flex;
   min-height: 900px;
+  background-size: 50% 900px;
+  background-position: right;
+  background-repeat: no-repeat;
 }
 .main-banner .content {
   display: flex;
   flex-direction: column;
   align-content: center;
   justify-content: center;
-}
-.main-banner img {
-  width: 100%;
 }
 
 .text-image {

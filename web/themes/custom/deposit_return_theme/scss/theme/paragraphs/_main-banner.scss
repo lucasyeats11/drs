@@ -1,13 +1,13 @@
 .main-banner {
   display: flex;
   min-height: 900px;
+  background-size: 50% 900px;
+  background-position: right;
+  background-repeat: no-repeat;
   .content {
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
-  }
-  img {
-    width: 100%;
   }
 }
