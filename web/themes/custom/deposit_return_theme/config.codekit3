@@ -373,6 +373,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/scss\/theme\/paragraphs\/_accordion.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/theme\/paragraphs\/_accordion.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/scss\/theme\/paragraphs\/_card.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -473,6 +488,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/theme\/paragraphs\/_text-image.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/scss\/theme\/paragraphs\/_text.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/theme\/paragraphs\/_text.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -1241,6 +1271,22 @@
       "oAP" : "\/templates\/pages\/page.html.twig",
       "oF" : 0
     },
+    "\/templates\/paragraphs\/paragraph--accordion-item.html.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/templates\/paragraphs\/paragraph--accordion-item.html.twig",
+      "oF" : 0
+    },
+    "\/templates\/paragraphs\/paragraph--accordion.html.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/templates\/paragraphs\/paragraph--accordion.html.twig",
+      "oF" : 0
+    },
     "\/templates\/paragraphs\/paragraph--banner.html.twig" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1295,6 +1341,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/templates\/paragraphs\/paragraph--text-image.html.twig",
+      "oF" : 0
+    },
+    "\/templates\/paragraphs\/paragraph--text.html.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/templates\/paragraphs\/paragraph--text.html.twig",
       "oF" : 0
     },
     "\/templates\/paragraphs\/paragraph--video.html.twig" : {

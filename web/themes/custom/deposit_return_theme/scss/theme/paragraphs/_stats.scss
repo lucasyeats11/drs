@@ -4,4 +4,19 @@ text-align: center;
     .stat-container {
       display: flex;
     }
+  a {
+    display: inline-block;
+    border: $purple solid 2px;
+    padding: 7px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: $purple;
+    &:hover {
+      color: $white;
+      background-color: $purple;
+    }
+  }
 }

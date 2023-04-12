@@ -1,0 +1,50 @@
+.accordion-paragraph {
+  padding: 50px 0;
+  h3 {
+    margin-bottom: 30px;
+  }
+  .field--name-field-add-item {
+    border-top: solid 1px $light-grey;
+  }
+  a {
+    display: inline-block;
+    border: $purple solid 2px;
+    padding: 7px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: $purple;
+
+    &:hover {
+      background-color: $purple;
+      color: white;
+    }
+  }
+  .accordion-item {
+    border-bottom: solid 1px $light-grey !important;
+    .accordion-header {
+      button {
+        padding: 25px 0;
+        .field--name-field-title {
+          font-size: 20px;
+          color: $purple;
+        }
+      }
+      .accordion-button:not(.collapsed) {
+        background-color: $white;
+        box-shadow: none;
+      }
+      .accordion-button {
+        &:focus {
+          border-color: none;
+          box-shadow: none;
+        }
+      }
+    }
+    .accordion-body {
+      padding: 0 0 20px 0;
+    }
+  }
+}

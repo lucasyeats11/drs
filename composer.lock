@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "285178b6c35cbea59ce6c197fcc4e8ab",
+    "content-hash": "cef8f1d62a70016fab2ae98ea5285f52",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1842,6 +1842,82 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/twig_tweak",
                 "issues": "https://www.drupal.org/project/issues/twig_tweak"
+            }
+        },
+        {
+            "name": "drupal/youtube",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/youtube.git",
+                "reference": "2.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/youtube-2.0.0.zip",
+                "reference": "2.0.0",
+                "shasum": "e79e58b4ad9e3ccdfea6820f82d19c15dc09a14b"
+            },
+            "require": {
+                "drupal/core": "^9.3 || ^10"
+            },
+            "require-dev": {
+                "drupal/coder": "^8.3",
+                "phpstan/phpstan-deprecation-rules": "^1.1"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.0",
+                    "datestamp": "1679360586",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "scripts": {
+                "phpcs": [
+                    "vendor/bin/phpcs src tests -p"
+                ],
+                "test": [
+                    "@phpcs"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "guschilds",
+                    "homepage": "https://www.drupal.org/user/1468898"
+                },
+                {
+                    "name": "imyaro",
+                    "homepage": "https://www.drupal.org/user/2870933"
+                },
+                {
+                    "name": "jenlampton",
+                    "homepage": "https://www.drupal.org/user/85586"
+                },
+                {
+                    "name": "markdorison",
+                    "homepage": "https://www.drupal.org/user/346106"
+                },
+                {
+                    "name": "pferlito",
+                    "homepage": "https://www.drupal.org/user/511172"
+                }
+            ],
+            "description": "Provides a simple field that allows you to add a youtube video to a content type, user, or any other Drupal entity.",
+            "homepage": "https://www.drupal.org/project/youtube",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/youtube",
+                "issues": "https://www.drupal.org/project/issues/youtube"
             }
         },
         {
