@@ -373,6 +373,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/scss\/theme\/nodes\/_article.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/theme\/nodes\/_article.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/scss\/theme\/paragraphs\/_accordion.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1261,6 +1276,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/templates\/navigation\/vertical-tabs.html.twig",
+      "oF" : 0
+    },
+    "\/templates\/node\/node--article.html.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/templates\/node\/node--article.html.twig",
+      "oF" : 0
+    },
+    "\/templates\/pages\/page--node.html.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/templates\/pages\/page--node.html.twig",
       "oF" : 0
     },
     "\/templates\/pages\/page.html.twig" : {

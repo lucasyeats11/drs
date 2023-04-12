@@ -11771,6 +11771,10 @@ p {
   padding: 0;
 }
 
+.block-page-title-block {
+  display: none;
+}
+
 .navbar {
   padding: 0;
   height: 140px;
@@ -12014,6 +12018,26 @@ footer .region-footer .block-menu .nav, footer .region-footer .block-menu .media
 
 .light-grey {
   background-color: #EBEBEB;
+}
+
+.article h1, .article .h1 {
+  margin-bottom: 30px;
+  display: block;
+}
+.article .content {
+  margin-bottom: 30px;
+  display: block;
+}
+.article .date {
+  margin-bottom: 30px;
+  display: block;
+}
+.article .field--name-field-image {
+  margin-bottom: 30px;
+  display: block;
+}
+.article .field--name-field-image img {
+  width: 100%;
 }
 
 .main-banner {
@@ -12291,7 +12315,7 @@ footer .region-footer .block-menu .nav, footer .region-footer .block-menu .media
 }
 
 .video {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 .video h3, .video .h3 {
   margin-bottom: 30px;
@@ -12320,7 +12344,7 @@ footer .region-footer .block-menu .nav, footer .region-footer .block-menu .media
 }
 
 .accordion-paragraph {
-  padding: 50px 0;
+  padding: 100px 0;
 }
 .accordion-paragraph h3, .accordion-paragraph .h3 {
   margin-bottom: 30px;
