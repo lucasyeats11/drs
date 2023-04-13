@@ -12192,8 +12192,7 @@ footer .region-footer .block-menu .nav, footer .region-footer .block-menu .media
 @media (max-width: 991.98px) {
   .main-banner .background-image:before {
     width: 100%;
-    height: 25vh;
-    background-size: 100%;
+    background-size: 101%;
     position: absolute;
     bottom: -1px;
     display: block;
@@ -12481,6 +12480,72 @@ footer .region-footer .block-menu .nav, footer .region-footer .block-menu .media
 }
 .accordion-paragraph .accordion-item .accordion-body {
   padding: 0 0 20px 0;
+}
+
+.steps {
+  padding: 100px 0;
+  background-color: #660269;
+}
+.steps .field--name-field-add-step {
+  display: flex;
+  flex-direction: column;
+}
+.steps .field--name-field-add-step .paragraph--type--step {
+  flex: 0 0 100%;
+}
+
+.step {
+  margin-bottom: 20px;
+}
+.step .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 991.98px) {
+  .step .row .media--type-vector-image img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+.step .row .content h3, .step .row .content .h3 {
+  color: #fff;
+  margin-bottom: 40px;
+}
+@media (max-width: 991.98px) {
+  .step .row .content h3, .step .row .content .h3 {
+    text-align: center;
+  }
+}
+.step .row .content p {
+  color: #fff;
+}
+@media (max-width: 991.98px) {
+  .step .row .content p {
+    text-align: center;
+  }
+}
+.step .row .content .field--name-field-link a {
+  display: inline-block;
+  border: #C6E236 solid 2px;
+  padding: 7px 12px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #C6E236;
+  margin-top: 20px;
+}
+.step .row .content .field--name-field-link a:hover {
+  background-color: #C6E236;
+  color: #4C024F;
+  border-color: #C6E236;
+}
+@media (max-width: 991.98px) {
+  .step .row .content .field--name-field-link {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .webform-submission-form {

@@ -1,0 +1,58 @@
+.step {
+  margin-bottom: 20px;
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include media-breakpoint-down(lg) {
+      .media--type-vector-image {
+        img {
+          display: block;
+          margin: 0 auto;
+        }
+      }
+    }
+
+    .content {
+      h3 {
+        color: $white;
+        margin-bottom: 40px;
+        @include media-breakpoint-down(lg) {
+          text-align: center;
+        }
+      }
+
+      p {
+        color: $white;
+        @include media-breakpoint-down(lg) {
+          text-align: center;
+        }
+      }
+
+      .field--name-field-link {
+        a {
+          display: inline-block;
+          border: $lime solid 2px;
+          padding: 7px 12px;
+          text-decoration: none;
+          border-radius: 5px;
+          font-weight: 600;
+          font-size: 20px;
+          color: $lime;
+          margin-top: 20px;
+
+          &:hover {
+            background-color: $lime;
+            color: $dark-purple;
+            border-color: $lime;
+          }
+        }
+        @include media-breakpoint-down(lg) {
+
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}

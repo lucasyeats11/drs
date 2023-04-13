@@ -533,6 +533,36 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/scss\/theme\/paragraphs\/_step.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/theme\/paragraphs\/_step.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/scss\/theme\/paragraphs\/_steps.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/theme\/paragraphs\/_steps.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/scss\/theme\/paragraphs\/_text-image.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1435,6 +1465,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/templates\/paragraphs\/paragraph--stats.html.twig",
+      "oF" : 0
+    },
+    "\/templates\/paragraphs\/paragraph--step.html.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/templates\/paragraphs\/paragraph--step.html.twig",
+      "oF" : 0
+    },
+    "\/templates\/paragraphs\/paragraph--steps.html.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/templates\/paragraphs\/paragraph--steps.html.twig",
       "oF" : 0
     },
     "\/templates\/paragraphs\/paragraph--text-image.html.twig" : {

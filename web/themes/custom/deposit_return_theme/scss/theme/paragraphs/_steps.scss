@@ -1,0 +1,11 @@
+.steps {
+  padding: 100px 0;
+  background-color: $purple;
+  .field--name-field-add-step {
+    display: flex;
+    flex-direction: column;
+    .paragraph--type--step {
+      flex: 0 0 100%;
+    }
+  }
+}
