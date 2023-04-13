@@ -12054,6 +12054,78 @@ footer .region-footer .block-menu .nav, footer .region-footer .block-menu .media
   margin-right: 10px;
 }
 
+.view-updates .view-content {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+.view-updates .view-content .update-card {
+  background-color: #660269;
+  color: white;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.view-updates .view-content .update-card .views-field-field-image {
+  position: relative;
+}
+.view-updates .view-content .update-card .views-field-field-image:after {
+  content: "";
+  display: inline-block;
+  background-image: url("../images/update-divider.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 119px;
+  width: 100%;
+  background-position-y: bottom;
+  position: absolute;
+  bottom: -1px;
+}
+@media (max-width: 991.98px) {
+  .view-updates .view-content .update-card .views-field-field-image:after {
+    height: 157px;
+  }
+}
+.view-updates .view-content .update-card .views-field-title {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 40px;
+  color: #fff;
+  margin: 20px 20px 40px 20px;
+}
+.view-updates .view-content .update-card .views-field-body {
+  margin: 0 20px;
+}
+.view-updates .view-content .update-card .views-field-body p {
+  color: #fff;
+}
+.view-updates .view-content .update-card .views-field-view-node {
+  margin: auto 20px 20px 20px;
+}
+.view-updates .view-content .update-card .views-field-view-node a {
+  display: inline-block;
+  border: #C6E236 solid 2px;
+  padding: 7px 12px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: 600;
+  background-color: #C6E236;
+  font-size: 20px;
+  color: #660269;
+}
+.view-updates .view-content .update-card .views-field-view-node a:hover {
+  background-color: #660269;
+  color: #C6E236;
+}
+@media (max-width: 991.98px) {
+  .view-updates .view-content {
+    display: block;
+  }
+}
+
 .main-banner {
   display: flex;
   min-height: 900px;

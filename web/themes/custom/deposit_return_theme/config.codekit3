@@ -243,6 +243,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/images\/update-divider.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/images\/update-divider.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/images\/white-banner-mobile.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -598,6 +608,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/scss\/theme\/views\/_updates.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/theme\/views\/_updates.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/templates\/admin\/status-report-counter.html.twig" : {
       "cB" : 0,
       "ft" : 8192,
@@ -916,6 +941,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/templates\/field\/field--node--uid.html.twig",
+      "oF" : 0
+    },
+    "\/templates\/field\/field--paragraph--add-block.html.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/templates\/field\/field--paragraph--add-block.html.twig",
       "oF" : 0
     },
     "\/templates\/field\/field--paragraph--field-add-card.html.twig" : {
