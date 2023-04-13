@@ -37,6 +37,7 @@
         box-shadow: none;
       }
       .accordion-button {
+        color: $purple;
         &:focus {
           border-color: none;
           box-shadow: none;
@@ -47,4 +48,5 @@
       padding: 0 0 20px 0;
     }
   }
+
 }

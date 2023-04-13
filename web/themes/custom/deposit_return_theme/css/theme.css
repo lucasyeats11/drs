@@ -12474,6 +12474,9 @@ footer .region-footer .block-menu .nav, footer .region-footer .block-menu .media
   background-color: #fff;
   box-shadow: none;
 }
+.accordion-paragraph .accordion-item .accordion-header .accordion-button {
+  color: #660269;
+}
 .accordion-paragraph .accordion-item .accordion-header .accordion-button:focus {
   border-color: none;
   box-shadow: none;
