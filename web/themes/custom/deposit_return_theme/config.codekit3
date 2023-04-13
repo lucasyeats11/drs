@@ -1019,6 +1019,14 @@
       "oAP" : "\/templates\/field\/field--paragraph--field-add-card.html.twig",
       "oF" : 0
     },
+    "\/templates\/field\/field--paragraph--field-add-item--accordion.html.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/templates\/field\/field--paragraph--field-add-item--accordion.html.twig",
+      "oF" : 0
+    },
     "\/templates\/field\/field--paragraph--field-add-stat.html.twig" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1393,14 +1401,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/templates\/pages\/page.html.twig",
-      "oF" : 0
-    },
-    "\/templates\/paragraphs\/paragraph--accordion-item.html.twig" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/templates\/paragraphs\/paragraph--accordion-item.html.twig",
       "oF" : 0
     },
     "\/templates\/paragraphs\/paragraph--accordion.html.twig" : {
