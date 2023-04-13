@@ -1,0 +1,13 @@
+.navbar-nav  {
+  .nav-item {
+    position: relative;
+    &.dropdown {
+      &:hover {
+        .dropdown-menu {
+          display: block;
+          top: 140px;
+        }
+      }
+    }
+  }
+}

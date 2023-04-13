@@ -11986,6 +11986,14 @@ footer .region-footer .block-menu .nav, footer .region-footer .block-menu .media
   }
 }
 
+.navbar-nav .nav-item {
+  position: relative;
+}
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  top: 140px;
+}
+
 .purple {
   background-color: #660269;
   color: white;
