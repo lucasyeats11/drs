@@ -1,0 +1,46 @@
+.webform-submission-form {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  gap: 20px;
+  flex-grow: 1;
+  .js-form-item {
+    width: 48%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    @include media-breakpoint-down(md) {
+      width: 100%;
+      margin: 0;
+    }
+  }
+  .form-type-textarea {
+    width: 100%;
+  }
+  .form-actions {
+    width: 100%;
+    .button {
+        border: $purple solid 2px;
+        padding: 7px 15px;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 20px;
+        font-weight: 600;
+        font-size: 20px;
+      background-color: $purple;
+      &:hover {
+        color: $lime;
+        border-color: $purple;
+      }
+    }
+  }
+  label {
+    color: $purple;
+    margin-bottom: 10px;
+  }
+  .form-control {
+    background-color: $light-grey;
+    padding: 15px 30px;
+    color: $dark-grey;
+    border: none;
+  }
+}

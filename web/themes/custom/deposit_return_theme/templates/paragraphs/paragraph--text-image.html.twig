@@ -13,14 +13,24 @@
           <div class="row">
             <div class="col-10 offset-lg-1">
               <div class="row">
-            <div class="col-lg-5 content">
-              <h2>{{ content.field_title }}</h2>
-              <p>{{ content.field_text }}</p>
-            </div>
-            <div class="col-lg-5 offset-lg-2 image">
-              {{ content.field_image_upload }}
-{#              {{ content.field_image_location }}#}
-            </div>
+                {% if content.field_image_location.0 == "left" %}
+                  <div class="col-lg-5 offset-lg-2 image">
+                    {{ content.field_image_upload }}
+                  </div>
+                  <div class="col-lg-5 content">
+                    <h2>{{ content.field_title }}</h2>
+                    <p>{{ content.field_text }}</p>
+                  </div>
+                {% else %}
+                  <div class="col-lg-5 content">
+                    <h2>{{ content.field_title }}</h2>
+                    <p>{{ content.field_text }}</p>
+                  </div>
+                  <div class="col-lg-5 offset-lg-2 image">
+                    {{ content.field_image_upload }}
+                  </div>
+                {% endif %}
+
               </div>
             </div>
           </div>

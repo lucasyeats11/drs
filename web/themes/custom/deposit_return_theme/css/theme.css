@@ -12253,7 +12253,7 @@ footer .region-footer .block-menu .nav, footer .region-footer .block-menu .media
 
 .cta {
   display: block;
-  padding: 100px 0;
+  padding: 50px 0;
   text-align: center;
 }
 .cta a {
@@ -12481,4 +12481,53 @@ footer .region-footer .block-menu .nav, footer .region-footer .block-menu .media
 }
 .accordion-paragraph .accordion-item .accordion-body {
   padding: 0 0 20px 0;
+}
+
+.webform-submission-form {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  gap: 20px;
+  flex-grow: 1;
+}
+.webform-submission-form .js-form-item {
+  width: 48%;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+@media (max-width: 767.98px) {
+  .webform-submission-form .js-form-item {
+    width: 100%;
+    margin: 0;
+  }
+}
+.webform-submission-form .form-type-textarea {
+  width: 100%;
+}
+.webform-submission-form .form-actions {
+  width: 100%;
+}
+.webform-submission-form .form-actions .button {
+  border: #660269 solid 2px;
+  padding: 7px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: #660269;
+}
+.webform-submission-form .form-actions .button:hover {
+  color: #C6E236;
+  border-color: #660269;
+}
+.webform-submission-form label {
+  color: #660269;
+  margin-bottom: 10px;
+}
+.webform-submission-form .form-control {
+  background-color: #EBEBEB;
+  padding: 15px 30px;
+  color: #6C6C6C;
+  border: none;
 }
