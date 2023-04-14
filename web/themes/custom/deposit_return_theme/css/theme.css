@@ -12262,6 +12262,14 @@ footer .region-footer .block-menu .nav, footer .region-footer .block-menu .media
     position: static;
   }
 }
+.main-banner .col-lg-5 {
+  padding-right: 80px;
+}
+@media (max-width: 991.98px) {
+  .main-banner .col-lg-5 {
+    padding-right: 0;
+  }
+}
 
 .text-image {
   display: block;
@@ -12288,13 +12296,18 @@ footer .region-footer .block-menu .nav, footer .region-footer .block-menu .media
 }
 .cta a {
   display: inline-block;
-  border: solid 2px;
+  border: #660269 solid 2px;
   padding: 7px 12px;
   text-decoration: none;
   border-radius: 5px;
   margin-top: 20px;
   font-weight: 600;
   font-size: 20px;
+  color: #660269;
+}
+.cta a:hover {
+  color: #fff;
+  background-color: #660269;
 }
 .cta.white a {
   color: #660269;
@@ -12703,6 +12716,26 @@ footer .region-footer .block-menu .nav, footer .region-footer .block-menu .media
   .hero {
     padding: 50px;
   }
+}
+
+.appstore {
+  display: block;
+  padding: 50px 0;
+}
+.appstore .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.appstore .image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.appstore .image svg {
+  margin-bottom: 20px;
+  height: 100px;
+  width: 300px;
 }
 
 .webform-submission-form {

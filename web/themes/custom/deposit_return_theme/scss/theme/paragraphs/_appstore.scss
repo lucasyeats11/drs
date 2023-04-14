@@ -1,0 +1,19 @@
+.appstore {
+  display: block;
+  padding: 50px 0;
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    svg {
+      margin-bottom: 20px;
+      height: 100px;
+      width: 300px;
+    }
+  }
+}
