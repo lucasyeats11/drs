@@ -12766,6 +12766,33 @@ footer .region-footer .block-menu .nav, footer .region-footer .block-menu .media
   background-repeat: no-repeat;
 }
 
+.examples {
+  background-color: #660269;
+  padding: 100px 0;
+  text-align: center;
+}
+.examples h2, .examples .h2 {
+  color: #fff;
+  margin-bottom: 30px;
+}
+.examples p {
+  color: #fff;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.examples .field--name-field-add-example {
+  margin-top: 50px;
+}
+.examples .field--name-field-add-example .example-title {
+  color: #C6E236;
+  margin-bottom: 20px;
+}
+@media (max-width: 991.98px) {
+  .examples .example {
+    margin-bottom: 30px;
+  }
+}
+
 .webform-submission-form {
   display: flex;
   flex-flow: row wrap;

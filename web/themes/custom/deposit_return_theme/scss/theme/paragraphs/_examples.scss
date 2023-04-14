@@ -1,0 +1,26 @@
+.examples {
+  background-color: $purple;
+  padding: 100px 0;
+  text-align: center;
+  h2 {
+    color: $white;
+    margin-bottom: 30px;
+  }
+  p {
+    color: $white;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .field--name-field-add-example {
+    margin-top: 50px;
+    .example-title {
+      color: $lime;
+      margin-bottom: 20px;
+    }
+  }
+  .example {
+    @include media-breakpoint-down(lg) {
+      margin-bottom: 30px;
+    }
+  }
+}
