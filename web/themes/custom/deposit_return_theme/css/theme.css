@@ -12645,6 +12645,66 @@ footer .region-footer .block-menu .nav, footer .region-footer .block-menu .media
   }
 }
 
+.hero {
+  padding: 100px;
+  margin: 100px 0;
+}
+.hero .content {
+  background-color: #660269;
+  padding: 75px;
+}
+.hero .content h3, .hero .content .h3 {
+  color: #fff;
+  text-align: center;
+}
+.hero .content p {
+  color: #fff;
+  text-align: center;
+}
+.hero .content .field--name-field-link {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.hero .content .field--name-field-link a {
+  display: inline-block;
+  border: #C6E236 solid 2px;
+  padding: 7px 12px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #C6E236;
+}
+.hero .content .field--name-field-link a:hover {
+  color: #660269;
+  background-color: #C6E236;
+}
+.hero .content .field--name-field-image-upload {
+  display: flex;
+  justify-content: center;
+}
+.hero .content .field--name-field-image-upload img {
+  width: 130px;
+  height: 170px;
+}
+@media (max-width: 575.98px) {
+  .hero .content .field--name-field-image-upload img {
+    width: 100px;
+  }
+}
+@media (max-width: 767.98px) {
+  .hero .content {
+    padding: 50px;
+  }
+}
+@media (max-width: 767.98px) {
+  .hero {
+    padding: 50px;
+  }
+}
+
 .webform-submission-form {
   display: flex;
   flex-flow: row wrap;

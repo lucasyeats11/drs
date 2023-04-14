@@ -518,6 +518,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/scss\/theme\/paragraphs\/_hero.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/theme\/paragraphs\/_hero.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/scss\/theme\/paragraphs\/_icon-banner.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1080,6 +1095,14 @@
       "oAP" : "\/templates\/field\/field--paragraph--field-add-stat.html.twig",
       "oF" : 0
     },
+    "\/templates\/field\/field--paragraph--field-icons.html.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/templates\/field\/field--paragraph--field-icons.html.twig",
+      "oF" : 0
+    },
     "\/templates\/field\/field--text-long.html.twig" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1496,12 +1519,28 @@
       "oAP" : "\/templates\/paragraphs\/paragraph--form.html.twig",
       "oF" : 0
     },
+    "\/templates\/paragraphs\/paragraph--hero.html.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/templates\/paragraphs\/paragraph--hero.html.twig",
+      "oF" : 0
+    },
     "\/templates\/paragraphs\/paragraph--icon-banner.html.twig" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/templates\/paragraphs\/paragraph--icon-banner.html.twig",
+      "oF" : 0
+    },
+    "\/templates\/paragraphs\/paragraph--icon-upload.html.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/templates\/paragraphs\/paragraph--icon-upload.html.twig",
       "oF" : 0
     },
     "\/templates\/paragraphs\/paragraph--stat.html.twig" : {

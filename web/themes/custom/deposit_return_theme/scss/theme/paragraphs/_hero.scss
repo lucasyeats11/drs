@@ -1,0 +1,54 @@
+.hero {
+  padding: 100px;
+  margin: 100px 0;
+  .content {
+    background-color: $purple;
+    padding: 75px;
+    h3 {
+      color: $white;
+      text-align: center;
+    }
+    p {
+      color: $white;
+      text-align: center;
+    }
+    .field--name-field-link {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      a {
+        display: inline-block;
+        border: $lime solid 2px;
+        padding: 7px 12px;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 20px;
+        font-weight: 600;
+        font-size: 20px;
+        color: $lime;
+        &:hover {
+          color: $purple;
+          background-color: $lime;
+        }
+      }
+    }
+
+    .field--name-field-image-upload {
+      display: flex;
+      justify-content: center;
+      img {
+        width: 130px;
+        height: 170px;
+        @include media-breakpoint-down(sm) {
+          width: 100px;
+        }
+      }
+    }
+    @include media-breakpoint-down(md) {
+      padding: 50px;
+    }
+  }
+  @include media-breakpoint-down(md) {
+    padding: 50px;
+  }
+}
