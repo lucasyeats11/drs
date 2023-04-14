@@ -1,0 +1,26 @@
+{% set classes = [
+  'paragraph',
+  'paragraph--type--' ~ paragraph.bundle|clean_class,
+  view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+  not paragraph.isPublished() ? 'paragraph--unpublished',
+] %}
+{% block paragraph %}
+  <div{{ attributes.addClass(classes) }}>
+    {% block content %}
+      <div class="social {{ content.field_background_colour.0|render|lower }}">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <h2>{{ content.field_title }}</h2>
+              <p>{{ content.field_text }}</p>
+              <div class="social-icons">
+              <a href="{{ content.field_facebook_link.0 }}" target="_blank" class="facebook"></a>
+              <a href="{{ content.field_instagram_link.0 }}" target="_blank" class="instagram"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endblock %}
+  </div>
+{% endblock paragraph %}

@@ -12738,6 +12738,34 @@ footer .region-footer .block-menu .nav, footer .region-footer .block-menu .media
   width: 300px;
 }
 
+.social {
+  background-color: #EBEBEB;
+  text-align: center;
+  padding: 100px 0;
+}
+.social .social-icons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.social .social-icons .facebook {
+  background-image: url("../icons/facebook.svg");
+  background-size: 50px;
+  width: 50px;
+  height: 50px;
+  display: block;
+  background-repeat: no-repeat;
+}
+.social .social-icons .instagram {
+  background-image: url("../icons/instagram.svg");
+  background-size: 50px;
+  width: 50px;
+  height: 50px;
+  display: block;
+  background-repeat: no-repeat;
+}
+
 .webform-submission-form {
   display: flex;
   flex-flow: row wrap;
