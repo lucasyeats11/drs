@@ -1,0 +1,39 @@
+.icon-banner {
+  padding: 100px 0;
+  background-color: $purple;
+
+  h1 {
+    color: $white;
+  }
+  p {
+    color: $white;
+  }
+  .row {
+    display: flex;
+    @include media-breakpoint-down(lg) {
+      flex-direction: column-reverse;
+    }
+    .content {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      flex-direction: column;
+
+    }
+    .image {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      flex-direction: column;
+      .field--name-field-media-svg {
+        display: flex;
+        img {
+          margin-left: auto;
+          @include media-breakpoint-down(lg) {
+            margin: 0 auto 20px auto;
+          }
+        }
+      }
+    }
+  }
+}

@@ -11817,6 +11817,11 @@ p {
   border-bottom: solid 6px #C6E236;
   margin-bottom: 0;
 }
+.navbar .navbar-collapse nav .navbar-nav li a.active, .navbar .navbar-collapse nav .navbar-nav li .media-library-view--widget .view-header a.is-active, .media-library-view--widget .view-header .navbar .navbar-collapse nav .navbar-nav li a.is-active {
+  color: #C6E236;
+  border-bottom: solid 6px #C6E236;
+  margin-bottom: 0;
+}
 @media (max-width: 1199.98px) {
   .navbar .navbar-collapse nav .navbar-nav {
     gap: 20px;
@@ -11856,6 +11861,9 @@ p {
 }
 .navbar .navbar-collapse nav .dropdown-menu a:hover {
   background: #4C024F;
+}
+.navbar .navbar-collapse nav .dropdown-menu a.active, .navbar .navbar-collapse nav .dropdown-menu .media-library-view--widget .view-header a.is-active, .media-library-view--widget .view-header .navbar .navbar-collapse nav .dropdown-menu a.is-active {
+  background-color: #4C024F;
 }
 @media (max-width: 991.98px) {
   .navbar .navbar-collapse nav .dropdown-menu {
@@ -12465,8 +12473,6 @@ footer .region-footer .block-menu .nav, footer .region-footer .block-menu .media
 }
 .accordion-paragraph .accordion-item .accordion-header button {
   padding: 25px 0;
-}
-.accordion-paragraph .accordion-item .accordion-header button .field--name-field-title {
   font-size: 20px;
   color: #660269;
 }
@@ -12548,6 +12554,48 @@ footer .region-footer .block-menu .nav, footer .region-footer .block-menu .media
   .step .row .content .field--name-field-link {
     display: flex;
     justify-content: center;
+  }
+}
+
+.icon-banner {
+  padding: 100px 0;
+  background-color: #660269;
+}
+.icon-banner h1, .icon-banner .h1 {
+  color: #fff;
+}
+.icon-banner p {
+  color: #fff;
+}
+.icon-banner .row {
+  display: flex;
+}
+@media (max-width: 991.98px) {
+  .icon-banner .row {
+    flex-direction: column-reverse;
+  }
+}
+.icon-banner .row .content {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.icon-banner .row .image {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.icon-banner .row .image .field--name-field-media-svg {
+  display: flex;
+}
+.icon-banner .row .image .field--name-field-media-svg img {
+  margin-left: auto;
+}
+@media (max-width: 991.98px) {
+  .icon-banner .row .image .field--name-field-media-svg img {
+    margin: 0 auto 20px auto;
   }
 }
 

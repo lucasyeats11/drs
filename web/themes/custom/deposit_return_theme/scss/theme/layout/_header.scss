@@ -39,6 +39,11 @@
               border-bottom: solid 6px $lime;
               margin-bottom: 0;
             }
+            &.active {
+              color: $lime;
+              border-bottom: solid 6px $lime;
+              margin-bottom: 0;
+            }
           }
         }
 
@@ -79,6 +84,9 @@
           padding: 20px !important;
           &:hover {
             background: $dark-purple;
+          }
+          &.active {
+            background-color: $dark-purple;
           }
         }
         @include media-breakpoint-down(lg) {
