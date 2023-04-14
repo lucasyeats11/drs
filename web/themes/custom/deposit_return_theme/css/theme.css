@@ -12745,23 +12745,23 @@ footer .region-footer .block-menu .nav, footer .region-footer .block-menu .media
 }
 .social .social-icons {
   display: flex;
-  gap: 10px;
+  gap: 30px;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 .social .social-icons .facebook {
   background-image: url("../icons/facebook.svg");
-  background-size: 50px;
-  width: 50px;
-  height: 50px;
+  background-size: 60px;
+  width: 60px;
+  height: 60px;
   display: block;
   background-repeat: no-repeat;
 }
 .social .social-icons .instagram {
   background-image: url("../icons/instagram.svg");
-  background-size: 50px;
-  width: 50px;
-  height: 50px;
+  background-size: 60px;
+  width: 60px;
+  height: 60px;
   display: block;
   background-repeat: no-repeat;
 }
