@@ -12398,6 +12398,11 @@ footer .region-footer .block-menu .nav, footer .region-footer .block-menu .media
   color: #fff;
   background-color: #660269;
 }
+@media (max-width: 767.98px) {
+  .stats {
+    padding: 0;
+  }
+}
 
 .card, .view-media-library .media-library-views-form .media-library-item--grid .views-field-rendered-entity, .media-library-selection .media-library-item.media-library-item--grid {
   background-color: #EBEBEB;

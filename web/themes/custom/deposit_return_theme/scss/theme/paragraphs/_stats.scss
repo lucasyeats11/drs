@@ -24,5 +24,7 @@ text-align: center;
       background-color: $purple;
     }
   }
-
+  @include media-breakpoint-down(md) {
+    padding: 0;
+  }
 }
