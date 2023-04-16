@@ -1,6 +1,11 @@
 .stats {
 text-align: center;
   padding: 100px 0;
+  .container {
+    @include media-breakpoint-down(md) {
+      padding: 20px;
+    }
+  }
     .stat-container {
       display: flex;
     }
@@ -19,4 +24,5 @@ text-align: center;
       background-color: $purple;
     }
   }
+
 }

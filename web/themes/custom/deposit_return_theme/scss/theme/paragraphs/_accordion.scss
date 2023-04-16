@@ -46,5 +46,7 @@
       padding: 0 0 20px 0;
     }
   }
-
+  @include media-breakpoint-down(md) {
+    padding: 20px;
+  }
 }

@@ -21,7 +21,10 @@
     background-repeat: no-repeat;
     background-position-y: bottom;
     position: relative;
-    bottom: -9px;
+    bottom: -10px;
+    @include media-breakpoint-down(md) {
+      height: 100px;
+    }
   }
   &:after {
     content: "";
@@ -34,5 +37,8 @@
     background-position-y: top;
     position: relative;
     top: -1px;
+    @include media-breakpoint-down(md) {
+      height: 100px;
+    }
   }
 }
