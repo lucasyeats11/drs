@@ -55,3 +55,7 @@ p {
 .block-page-title-block {
   display: none;
 }
+
+.form-select {
+  background: url("../icons/select-down.svg") no-repeat right 0.3em center/2.5em, linear-gradient(to left, $lime 3em,$light-grey 3em);
+}

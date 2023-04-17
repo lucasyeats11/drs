@@ -11793,6 +11793,10 @@ p {
   display: none;
 }
 
+.form-select {
+  background: url("../icons/select-down.svg") no-repeat right 0.3em center/2.5em, linear-gradient(to left, #C6E236 3em, #EBEBEB 3em);
+}
+
 header {
   z-index: 999;
 }

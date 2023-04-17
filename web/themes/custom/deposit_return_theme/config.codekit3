@@ -233,6 +233,26 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/icons\/select-down.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/icons\/select-down.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/icons\/select-up.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/icons\/select-up.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/images\/app-store.svg" : {
       "ft" : 2097152,
       "miP" : 0,
