@@ -11953,16 +11953,13 @@ footer .region-first-footer p {
 footer .region-first-footer #block-socialicons {
   margin-left: auto;
 }
-footer .region-first-footer #block-socialicons .field--name-body {
-  display: flex;
-}
-footer .region-first-footer #block-socialicons .field--name-body svg {
+footer .region-first-footer #block-socialicons svg {
   width: 50px;
 }
-footer .region-first-footer #block-socialicons .field--name-body svg path {
+footer .region-first-footer #block-socialicons svg path {
   fill: #fff;
 }
-footer .region-first-footer #block-socialicons .field--name-body svg:first-child {
+footer .region-first-footer #block-socialicons svg:first-child {
   margin-right: 20px;
 }
 @media (max-width: 767.98px) {

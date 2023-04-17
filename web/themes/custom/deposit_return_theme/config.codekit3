@@ -916,6 +916,14 @@
       "oAP" : "\/templates\/block\/block--search-form-block.html.twig",
       "oF" : 0
     },
+    "\/templates\/block\/block--socialicons.html.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/templates\/block\/block--socialicons.html.twig",
+      "oF" : 0
+    },
     "\/templates\/block\/block--system-branding-block.html.twig" : {
       "cB" : 0,
       "ft" : 8192,

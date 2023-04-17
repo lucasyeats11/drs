@@ -19,8 +19,6 @@ footer {
 
     #block-socialicons {
       margin-left: auto;
-      .field--name-body {
-        display: flex;
         svg {
           width: 50px;
           path {
@@ -29,7 +27,6 @@ footer {
           &:first-child {
             margin-right: 20px;
           }
-        }
       }
       @include media-breakpoint-down(md) {
         margin-left: 0;
