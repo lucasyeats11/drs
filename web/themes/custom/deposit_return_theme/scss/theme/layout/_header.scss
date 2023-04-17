@@ -5,11 +5,15 @@ header {
     height: 140px;
     background-color: $dark-purple;
 
+    @include media-breakpoint-down(lg) {
+      padding: 15px !important;
+    }
+
     .navbar-brand {
       img {
         height: 95px;
         @include media-breakpoint-down(lg) {
-          height: 85px;
+          height: 65px;
         }
       }
     }

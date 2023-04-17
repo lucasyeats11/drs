@@ -1,5 +1,5 @@
 .step {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   .row {
     display: flex;
     align-items: center;
@@ -27,6 +27,15 @@
         color: $white;
         @include media-breakpoint-down(lg) {
           text-align: center;
+        }
+      }
+      strong {
+        color: $lime;
+      }
+
+      .field--name-field-image-upload {
+        img {
+          height: 200px;
         }
       }
 
