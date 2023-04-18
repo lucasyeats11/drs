@@ -11797,8 +11797,19 @@ p {
   background: url("../icons/select-down.svg") no-repeat right 0.3em center/2.5em, linear-gradient(to left, #C6E236 3em, #EBEBEB 3em);
 }
 
+main {
+  margin-top: 140px;
+}
+@media (max-width: 767.98px) {
+  main {
+    margin-top: 0;
+  }
+}
+
 header {
   z-index: 999;
+  position: fixed;
+  width: 100%;
 }
 header .navbar {
   padding: 0;
@@ -11935,6 +11946,11 @@ header .navbar-toggler .navbar-toggler-icon {
 }
 header .navbar-toggler.collapsed .navbar-toggler-icon {
   background-image: url("../icons/mobile-nav.svg");
+}
+@media (max-width: 991.98px) {
+  header {
+    position: initial;
+  }
 }
 
 footer {

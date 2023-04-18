@@ -1,5 +1,7 @@
 header {
   z-index: 999;
+  position: fixed;
+  width: 100%;
   .navbar {
     padding: 0;
     height: 140px;
@@ -142,5 +144,8 @@ header {
         background-image: url("../icons/mobile-nav.svg");
       }
     }
+  }
+  @include media-breakpoint-down(lg) {
+    position: initial;
   }
 }

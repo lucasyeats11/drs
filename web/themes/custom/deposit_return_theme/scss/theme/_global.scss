@@ -59,3 +59,10 @@ p {
 .form-select {
   background: url("../icons/select-down.svg") no-repeat right 0.3em center/2.5em, linear-gradient(to left, $lime 3em,$light-grey 3em);
 }
+
+main {
+  margin-top: 140px;
+  @include media-breakpoint-down(md) {
+    margin-top: 0;
+  }
+}
