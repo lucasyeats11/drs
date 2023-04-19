@@ -12152,6 +12152,7 @@ footer .region-footer .block-menu .nav, footer .region-footer .block-menu .media
   display: flex;
   flex-direction: column;
   flex: 1;
+  max-width: 33%;
 }
 .view-updates .view-content .update-card .views-field-field-image {
   position: relative;
@@ -12185,6 +12186,11 @@ footer .region-footer .block-menu .nav, footer .region-footer .block-menu .media
 }
 .view-updates .view-content .update-card .views-field-body p {
   color: #fff;
+}
+.view-updates .view-content .update-card .views-field-body a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
 }
 .view-updates .view-content .update-card .views-field-created {
   margin: 20px;

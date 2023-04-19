@@ -12,6 +12,7 @@
       display: flex;
       flex-direction: column;
       flex: 1;
+      max-width: 33%;
 
       .views-field-field-image {
         position: relative;
@@ -45,6 +46,11 @@
 
         p {
           color: $white;
+        }
+        a {
+          color: $white;
+          text-decoration: none;
+          cursor: pointer;
         }
       }
       .views-field-created {
