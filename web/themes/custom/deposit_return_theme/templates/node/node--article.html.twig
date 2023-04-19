@@ -83,9 +83,13 @@
     <div class="row">
       <div class="col-lg-10 offset-lg-1">
         <h1>{{ label }}</h1>
+        <div class="col-lg-8">
         {{ content.field_image }}
-        <div class="date">{{ node.created.value|format_date('custom', 'd/m/y') }}</div>
+        </div>
+        <div class="col-lg-6">
+          <div class="date">{{ node.created.value|format_date('custom', 'd/m/y') }}</div>
         <div class="content">{{ content.body }}</div>
+        </div>
         <button class="back-button" onclick="history.back()">Back</button>
       </div>
     </div>

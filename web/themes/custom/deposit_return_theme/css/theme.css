@@ -12109,6 +12109,10 @@ footer .region-footer .block-menu .nav, footer .region-footer .block-menu .media
   margin-bottom: 20px;
   display: block;
 }
+.article .content img {
+  width: 100%;
+  margin-bottom: 30px;
+}
 .article .date {
   margin-bottom: 20px;
   display: block;
