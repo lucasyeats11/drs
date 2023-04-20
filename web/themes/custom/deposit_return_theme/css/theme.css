@@ -652,7 +652,7 @@ progress {
 }
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1640px;
+    max-width: 1400px;
   }
 }
 .row {
@@ -12215,6 +12215,11 @@ footer .region-footer .block-menu .nav, footer .region-footer .block-menu .media
   color: #C6E236;
 }
 @media (max-width: 991.98px) {
+  .view-updates .view-content .update-card {
+    max-width: 100%;
+  }
+}
+@media (max-width: 991.98px) {
   .view-updates .view-content {
     display: block;
   }
@@ -12319,8 +12324,9 @@ footer .region-footer .block-menu .nav, footer .region-footer .block-menu .media
 }
 .main-banner .col-lg-5 {
   padding-right: 80px;
+  padding-left: 40px;
 }
-@media (max-width: 991.98px) {
+@media (max-width: 1199.98px) {
   .main-banner .col-lg-5 {
     padding-right: 0;
   }
