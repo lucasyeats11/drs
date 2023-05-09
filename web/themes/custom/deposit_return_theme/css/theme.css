@@ -11781,7 +11781,7 @@ p {
   font-weight: 300;
   font-size: 18px;
   line-height: 30px;
-  color: #6C6C6C;
+  color: #000;
 }
 
 .region-footer,
@@ -11804,6 +11804,10 @@ main {
   main {
     margin-top: 0;
   }
+}
+
+#block-deposit-return-theme-main-navigation-menu #block-deposit-return-theme-footer-menu {
+  display: none;
 }
 
 header {

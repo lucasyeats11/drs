@@ -43,7 +43,7 @@ p {
   font-weight: 300;
   font-size: 18px;
   line-height: 30px;
-  color: $dark-grey
+  color: $black;
 }
 
 //Resetting bootstrap defaults
@@ -65,4 +65,9 @@ main {
   @include media-breakpoint-down(md) {
     margin-top: 0;
   }
+}
+
+#block-deposit-return-theme-main-navigation-menu
+#block-deposit-return-theme-footer-menu {
+  display: none;
 }
