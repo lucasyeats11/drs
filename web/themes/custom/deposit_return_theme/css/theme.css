@@ -12876,6 +12876,14 @@ footer .region-footer .block-menu .nav, footer .region-footer .block-menu .media
   display: block;
   background-repeat: no-repeat;
 }
+.social .social-icons .tiktok {
+  background-image: url("../icons/tiktok.svg");
+  background-size: 60px;
+  width: 60px;
+  height: 60px;
+  display: block;
+  background-repeat: no-repeat;
+}
 
 .examples {
   background-color: #660269;
