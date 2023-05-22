@@ -12116,6 +12116,7 @@ footer .region-footer .block-menu .nav, footer .region-footer .block-menu .media
 .article .content img {
   width: 100%;
   margin-bottom: 30px;
+  height: auto;
 }
 .article .date {
   margin-bottom: 20px;
